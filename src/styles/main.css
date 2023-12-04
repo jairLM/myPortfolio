@@ -1,0 +1,85 @@
+.containerMain{
+    display: flex;
+    justify-content: center;
+    margin: 5em  auto;
+    @media screen and (max-width : 700px) {
+        margin: 1em auto;
+    }
+}
+
+.imgJair{
+    width: 40%;
+}
+.containerImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    @media screen and (max-width : 700px) {
+        min-height: 30vh;
+    }
+}
+.containerInfo{
+    display: flex;
+    justify-content: center;    
+    min-height: 40vh;   
+}
+
+.ownInfo{
+    display: flex;
+    flex-direction: column;
+    width: 70%;    
+}
+
+.containerRow{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.containerIcons{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    @media screen and (max-width : 1500px) {
+       justify-content: center;
+    }
+    
+}
+.elementIcon{
+    margin: 0.5em;
+    @media screen and (max-width : 700px) {
+        display: flex;
+        justify-content: center;
+        width: 30%;
+       
+    }
+}
+
+.btnDl{
+    background-color: #FF3B93;
+    border: none;
+    border-radius: 5px;
+    width: 15%;
+    padding: 0.5em;
+    @media screen and (max-width : 1500px) {
+       
+        width: 50%;
+    }
+  
+}
+.iconMain{    
+    color: white;
+    margin: 1em;
+    
+}
+
+.aBtn{
+    text-decoration: none;
+    color: #fff;
+    
+}

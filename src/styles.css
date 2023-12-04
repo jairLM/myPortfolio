@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+    background-color: #1A191D;
+    color: #fff;
+    font-family: 'Concert One', cursive;
+    
+}
+h1, li{
+    font-size: 1.8em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+

@@ -1,0 +1,84 @@
+.containerProjects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5em ;
+    @media screen and (max-width : 1000px) {
+        margin: 0;
+     } 
+
+}
+
+.containerCardProject{
+    display: flex;
+    flex-direction: column;
+    background-color: #3E3E3E;
+    border-radius: 5px;
+    margin: 1em;
+    padding: 1em;
+    max-width: 30%;
+    
+   
+    min-height: 15em;    
+    border: solid 1px #FFFFFF;
+
+    @media screen and (max-width : 1000px) {
+       max-width: 100%;
+    } 
+   
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.proyectCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1em;
+    flex-wrap:wrap;
+    @media screen and (max-width : 1500px) {
+        justify-content: space-around;
+     } 
+    
+}
+.imgFrame{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+.tecList{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.tec{
+    min-width: 10%;
+    max-width: 35%;    
+    border-radius: 5px;
+    text-align: center;
+    margin: 0.5em;
+    padding: 0.3em;
+}
+
+.tecHtml{
+    background-color: #E5532C;
+}
+.tecCss{
+    background-color: #0096DC;
+}
+.tecJs{
+    background-color: #F7E018;
+}
+
+.logoTec{
+    max-width: 20%;
+}
