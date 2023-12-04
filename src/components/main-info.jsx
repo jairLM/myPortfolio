@@ -6,13 +6,15 @@ function Main() {
     <main className='containerMain'>
         <section className='row containerRow'>
             <div className="col-md-6 col-xl-5  containerImg">
-                <img src="/src/img/LuisJair.png" className='imgJair' alt="Jair" />
+                <img src="../myPortfolio/img/LuisJair.png" className='imgJair' alt="Jair" />
             </div>
             <div className="col-md-6 col-xl-7  containerInfo">            
                 <div className='ownInfo'>
-                    <h1>Hi, I'm Jair!</h1>
+                    <h1>Hola, Soy Jair!</h1>
                     <h2>Desarrollador Java Full Stack</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim labore necessitatibus facilis amet officiis suscipit in dolorum. Possimus, provident. Illum, tempora neque ex, nisi velit iste est, exercitationem corrupti quod nihil quia. Velit natus officia asperiores ratione unde dicta vitae nobis quaerat facilis tenetur, error ut magni enim, libero sapiente?</p>
+                    <p>Ingeniero Mecánico, egresado y titulado del Instituto Politécnico Nacional. Amplio 
+                        interés en la rama de la tecnología. Apasionado por el desarrollo de web, así como 
+                        por la realización de pruebas y resolución de problemas.</p>
                     <ul className='containerIcons'>
                         <li className='elementIcon'>
                             <a href="https://www.linkedin.com/in/luis-jair-lopez-murillo-44b3341b9/" target="_blanck">
@@ -25,7 +27,7 @@ function Main() {
                             </a>
                         </li>
                         <button className='btnDl'>
-                            <a  href="/src/docs/resumeLuisJairLopezMurillo.pdf" download={"resume.pdf"} className='aBtn'>Get resume</a>
+                            <a  href="../myPorfolio/img/LuisJairLopezMurilloCV.pdf" download={"resume.pdf"} className='aBtn' target='_blank'>Descargar CV</a>
                         </button>
                     </ul>
                     
