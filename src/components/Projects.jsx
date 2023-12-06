@@ -5,7 +5,7 @@ function Projects() {
   return (
     <article className='containerProjects'>
         <section className='projects'>
-            <h1>&#60;--Projectos--&#62;</h1> 
+            <h1 id='projects'>&#60;--Proyectos--&#62;</h1> 
             <div className="proyectCards">
                 <section className='containerCardProject'>
                     <a href="https://bubblebeartapioca.netlify.app/" target='_blank'>
