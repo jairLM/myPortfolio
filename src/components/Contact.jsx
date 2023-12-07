@@ -28,22 +28,22 @@ export const ContactMe = () => {
     <div className='containerInfo'>
 
         <div className=" inputSm">
-            <label for="contactName"  className="form-label">Name</label>
+            <label for="contactName"  className="form-label"><p>Name</p></label>
             <input type="text" name="user_name" className="form-control m-2" id="contactName"></input>
         </div>
         <div className=" inputSm">
-            <label for="contactEmail" className="form-label">Email</label>
+            <label for="contactEmail" className="form-label"><p>Email</p></label>
             <input type="email" name="user_email"  class="form-control m-2" id="contactEmail"></input>
         </div>
         <div className=" input">
-            <label for="contactMessage" className="form-label">Message</label>
+            <label for="contactMessage" className="form-label"><p>Message</p></label>
             <textarea type="text" name="message" className="form-control" id="contactMessage"></textarea>
         </div>
         <button type="submit" value="Send" className="btn_send">Enviar</button>
 
     </div>
     <section className='containerImgSend'>
-        <img src="../myPortfolio/img/sent-messages.svg" alt="send" /> 
+        <img className="imgSend" src="../src/img/sent-messages.svg" alt="send" /> 
     </section>
 
     </form>

@@ -6,7 +6,7 @@ function Main() {
     <main className='containerMain'>
         <section className='row containerRow'>
             <div className="col-md-6 col-xl-5  containerImg">
-                <img src="../myPortfolio/img/LuisJair.png" className='imgJair' alt="Jair" />
+                <img src="../src/img/LuisJair.png" className='imgJair' alt="Jair" />
             </div>
             <div className="col-md-6 col-xl-7  containerInfo">            
                 <div className='ownInfo'>
@@ -27,7 +27,7 @@ function Main() {
                             </a>
                         </li>
                         <button className='btnDl'>
-                            <a  href="../myPorfolio/img/LuisJairLopezMurilloCV.pdf" download={"resume.pdf"} className='aBtn' target='_blank'>Descargar CV</a>
+                            <a  href="#" download={"resume.pdf"} className='aBtn' target='_blank'>Descargar CV</a>
                         </button>
                     </ul>
                     
