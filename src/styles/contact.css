@@ -8,7 +8,6 @@ form{
     display: flex;
     align-items: center;
     justify-content: center;
-    
     flex-wrap: wrap;
 }
 
@@ -55,3 +54,19 @@ form{
     width: 40%;
     height: 100px;
 }
+
+@media screen and (max-width : 700px) {
+    
+    form{
+        flex-flow: column;
+    }
+    .inputSm{
+        width: 80%;
+    }
+    .containerInfo{
+        width: 80%;
+    }
+
+
+}
+
