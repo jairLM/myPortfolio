@@ -3,6 +3,7 @@ import  Footer  from './components/Footer'
 import NavBar from './components/NavBar'
 import Projects from './components/Projects'
 import Main from './components/main-info.jsx'
+import Contact from './components/Contact.jsx'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <NavBar />
       <Main/>
       <Projects/>
+      <Contact/>
       <Footer/>
     </>
   )
