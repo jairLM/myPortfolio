@@ -20,7 +20,7 @@ export const ContactMe = () => {
    
     <>
     <section className='titleContact'>
-        <h1 id='projects'>&#60;--Contact--&#62;</h1>
+        <h1 id='contact'>&#60;--Contacto--&#62;</h1>
     </section>
      
     <form ref={form} onSubmit={sendEmail} className=' containerForm'>
@@ -28,7 +28,7 @@ export const ContactMe = () => {
     <div className='containerInfo'>
 
         <div className=" inputSm">
-            <label for="contactName"  className="form-label"><p>Name</p></label>
+            <label for="contactName"  className="form-label"><p>Nombre</p></label>
             <input type="text" name="user_name" className="form-control m-2" id="contactName"></input>
         </div>
         <div className=" inputSm">
@@ -36,7 +36,7 @@ export const ContactMe = () => {
             <input type="email" name="user_email"  class="form-control m-2" id="contactEmail"></input>
         </div>
         <div className=" input">
-            <label for="contactMessage" className="form-label"><p>Message</p></label>
+            <label for="contactMessage" className="form-label"><p>Mensaje</p></label>
             <textarea type="text" name="message" className="form-control" id="contactMessage"></textarea>
         </div>
         <button type="submit" value="Send" className="btn_send">Enviar</button>

@@ -6,13 +6,7 @@ export const Footer = () => {
     <footer className="footerContainer">
 
       <section className="row p-0">
-        <div className="col-md-6 containerInfo">
-            <div className="info">
-              <h1>LUIS JAIR LOPEZ MURILLO</h1>  
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid at ratione ducimus ea molestias quibusdam eum voluptate aut optio!</p>
-            </div>
-          
-        </div>  
+       
 
         <div className="col-md-6 containerSocial">
           <div className="row titleSocial">
