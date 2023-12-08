@@ -6,7 +6,7 @@ function Main() {
     <main className='containerMain'>
         <section className='row containerRow'>
             <div className="col-md-6 col-xl-5  containerImg">
-                <img src="../src/img/LuisJair.png" className='imgJair' alt="Jair" />
+                <img src="../myPortfolio/img/LuisJair.png" className='imgJair' alt="Jair" />
             </div>
             <div className="col-md-6 col-xl-7  containerInfo">            
                 <div className='ownInfo'>

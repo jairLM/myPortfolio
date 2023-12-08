@@ -43,7 +43,7 @@ export const ContactMe = () => {
 
     </div>
     <section className='containerImgSend'>
-        <img className="imgSend" src="../src/img/sent-messages.svg" alt="send" /> 
+        <img className="imgSend" src="../myPortfolio/img/sent-messages.svg" alt="send" /> 
     </section>
 
     </form>
