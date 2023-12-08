@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 
     @media screen and (max-width : 700px) {
         padding: 0;
@@ -23,7 +24,6 @@
 
 .socialList{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -45,9 +45,13 @@
 }
 
 .liSocial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     list-style: none;
     width: 40%;    
     text-align: center;
+    margin: 1em;
     
    
 }

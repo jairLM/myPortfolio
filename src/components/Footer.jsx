@@ -8,7 +8,7 @@ export const Footer = () => {
       <section className="row p-0">
        
 
-        <div className="col-md-6 containerSocial">
+        <div className=" containerSocial">
           <div className="row titleSocial">
             <h1>SOCIAL</h1>
           </div>
