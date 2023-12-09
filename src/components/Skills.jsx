@@ -11,25 +11,25 @@ export const Skills = () => {
         </section>
         <section className='sectionSkills'>
             <div className="skill">
-                <img src="./src/img/html.png" alt="react" />
+                <img src="../myPortfolio/img/html.png" alt="react" />
             </div>
             <div className="skill">
-                <img src="./src/img/css3Logo.png" alt="react" />
+                <img src="../myPortfolio/img/css3Logo.png" alt="react" />
             </div>
             <div className="skill">
-                <img src="./src/img/js.png" alt="react" />
+                <img src="../myPortfolio/img/js.png" alt="react" />
             </div>
             <div className="skill">
-                <img src="./src/img/bootstrap.svg" alt="react" />
+                <img src="../myPortfolio/img/bootstrap.svg" alt="react" />
             </div>
             <div className="skill">
-                <img src="./src/img/react.svg" alt="react" />
+                <img src="../myPortfolio/img/react.svg" alt="react" />
             </div>
             <div className="skill">
-                <img src="./src/img/spring.svg" alt="react" />
+                <img src="../myPortfolio/img/spring.svg" alt="react" />
             </div>
             <div className="skill">
-                <img src="./src/img/mysql.svg" alt="react" />
+                <img src="../myPortfolio/img/mysql.svg" alt="react" />
             </div>
 
         </section>
