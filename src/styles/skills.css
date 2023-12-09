@@ -1,0 +1,61 @@
+
+.titleSkills{
+    margin: 2em;
+}
+.containerSkills{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--titleColor);
+    width: 100%;
+    min-height: 100%;
+
+}
+.sectionSkills{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5%;
+    width: 60%;
+
+}
+.skill{
+    width: 20%;
+    margin: 1em;
+    background-color: #FFFFFF;
+    border-radius: 1em;
+    border: solid 1px #FFFFFF;
+    transition: 0.5s;
+}
+.skill:hover{
+    width: 22%;
+    box-shadow: 5px 5px 5px #FFFFFF,
+    -5px -5px  5px #FFFFFf;
+    transition: 0.5s;
+    
+}
+
+.skill img{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em auto;
+}
+@media only screen and (max-width: 1000px) {
+    .skill{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .skill{
+        width: 40%;
+    }
+    .sectionSkills{
+        width: 80%;
+    }
+}
