@@ -26,7 +26,7 @@ function NavBar() {
             <div ref={navRef} className="col-md-8 containerOptionsNav ">
                 <ul className='optionsNav pink align-self-center '>
                     <li><a href="#projects" className='anchor'>Proyectos&#40;&#41;</a></li>
-                    <li><a href="#" className='anchor'>Skills&#40;&#41;</a></li>
+                    <li><a href="#skills" className='anchor'>Skills&#40;&#41;</a></li>
                     <li><a href="#" className='anchor'>Experiencia&#40;&#41;</a></li>
                     <li><a href="#contact" className='anchor'>Contacto&#40;&#41;</a></li>
                 </ul>
