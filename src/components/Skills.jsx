@@ -11,25 +11,28 @@ export const Skills = () => {
         </section>
         <section className='sectionSkills'>
             <div className="skill">
-                <img src="../myPortfolio/img/html.png" alt="react" />
+                <img src="../myPortfolio/img/html.png" alt="htmlLogo" />
             </div>
             <div className="skill">
-                <img src="../myPortfolio/img/css3Logo.png" alt="react" />
+                <img src="../myPortfolio/img/css3Logo.png" alt="cssLogo" />
             </div>
             <div className="skill">
-                <img src="../myPortfolio/img/js.png" alt="react" />
+                <img src="../myPortfolio/img/js.png" alt="jsLogo" />
             </div>
             <div className="skill">
-                <img src="../myPortfolio/img/bootstrap.svg" alt="react" />
+                <img src="../myPortfolio/img/java.svg" alt="javaLogo" />
             </div>
             <div className="skill">
-                <img src="../myPortfolio/img/react.svg" alt="react" />
+                <img src="../myPortfolio/img/bootstrap.svg" alt="bootstrapLogo" />
             </div>
             <div className="skill">
-                <img src="../myPortfolio/img/spring.svg" alt="react" />
+                <img src="../myPortfolio/img/react.svg" alt="reactLogo" />
             </div>
             <div className="skill">
-                <img src="../myPortfolio/img/mysql.svg" alt="react" />
+                <img src="../myPortfolio/img/spring.svg" alt="springLogo" />
+            </div>
+            <div className="skill">
+                <img src="../myPortfolio/img/mysql.svg" alt="sqlLogo" />
             </div>
 
         </section>
