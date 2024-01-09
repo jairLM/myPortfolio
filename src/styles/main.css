@@ -88,5 +88,14 @@
     align-items: center;
     justify-content: center;
     margin-top: 3em;
-    background-color: var(#FF3B93); 
+    background-color:#FF3B93; 
+    border-radius: 5px;
+   
+}
+.iconCw{
+    background-color: aqua;
+}
+
+.codewarsImg img{
+    max-width: 80%;
 }
