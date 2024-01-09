@@ -83,3 +83,10 @@
     color: #fff;
     
 }
+.codewarsImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+    background-color: var(#FF3B93); 
+}

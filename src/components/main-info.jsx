@@ -30,7 +30,7 @@ function Main() {
                             <a  href="#" download={"resume.pdf"} className='aBtn' target='_blank'>Descargar CV</a>
                         </button>
                     </ul>
-                    <section>
+                    <section className='codewarsImg'>
                         <img src="https://www.codewars.com/users/jairLM/badges/large" alt="codewars" />
                     </section>
                     
