@@ -78,6 +78,31 @@
 .tecJs{
     background-color: #F7E018;
 }
+.tecJava{
+    background-color: #FFF;
+    color: #3E3E3E;
+}
+.tecSpringB{
+    background-color: #72B545;
+}
+.tecMysql{
+    background-color: #08668F;
+}
+.tecGitHub{
+    background-color: #000;
+}
+.tecPostman{
+    background-color: #FD713B;
+}
+.tecNode{
+    background-color: #80D041;
+}
+.tecMongo{
+    background-color: #08EE69;
+}
+.tecBitb{
+    background-color: #2684FF;
+}
 
 .logoTec{
     max-width: 20%;
