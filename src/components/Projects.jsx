@@ -63,7 +63,7 @@ function Projects() {
                   <p>Repositorio de mi API de canciones</p>
                   <p>Tecnologías implementadas:</p>
                   <section className='tecList'>
-                      <p className='tec tecNode' >NODEJS <img src="../myPortfolio/img/nodejs.svg" className='logoTec' alt="node" /></p>
+                      <p className='tec tecNode' >NODEJS <img src="../myPortfolio/img/nodejsblack.svg" className='logoTec' alt="node" /></p>
                       <p className='tec tecMongo'>MONGO <img src="../myPortfolio/img/mongodb.svg" className='logoTec' alt="mongo" /></p>
                       <p className='tec tecBitb'>BITBUCKET <img src="../myPortfolio/img/bitbucket.svg" className='logoTec' alt="bitbucket" /> </p>
                       <p className='tec tecPostman'>POSTMAN <img src="../myPortfolio/img/postman.svg" className='logoTec' alt="postman" /></p>
