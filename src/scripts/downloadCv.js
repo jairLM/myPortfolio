@@ -1,7 +1,7 @@
 
  function downloadCv(e) {
     e.preventDefault();
-    const url = '/src/util/Luis-Jair-Lopez-Murillo-CV.pdf'; 
+    const url = '/public/util/Luis-Jair-Lopez-Murillo-CV.pdf'; 
     const nombreArchivo = 'CV.pdf';
 
     const enlaceDescarga = document.createElement('a');
