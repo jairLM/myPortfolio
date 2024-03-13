@@ -62,7 +62,7 @@
 
 .tec{
     min-width: 10%;
-    max-width: 35%;    
+    width: 44%;    
     border-radius: 5px;
     text-align: center;
     margin: 0.5em;
@@ -108,3 +108,13 @@
 .logoTec{
     max-width: 20%;
 }
+
+@media screen and (max-width : 785px) {
+    .tec{
+        display: flex;
+        width: 42%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+ } 

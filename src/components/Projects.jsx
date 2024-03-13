@@ -49,7 +49,7 @@ function Projects() {
                       <p className='tec tecJava' >JAVA <img src="../myPortfolio/img/java.svg" className='logoTec' alt="java" /></p>
                       <p className='tec tecSpringB'>SPRINGBOOT <img src="../myPortfolio/img/spring-boot.svg" className='logoTec' alt="springboot" /></p>
                       <p className='tec tecMysql'>MYSQL <img src="../myPortfolio/img/mysql.svg" className='logoTec' alt="mysql" /></p>
-                      <p className='tec tecGitHub'>GITHUB <i className="bi bi-github iconMain"></i></p>
+                      <p className='tec tecGitHub'>GITHUB <i className="bi bi-github logoTec"></i></p>
                       <p className='tec tecPostman'>POSTMAN <img src="../myPortfolio/img/postman.svg" className='logoTec' alt="postman" /></p>
                     </section>
                 </section>   
