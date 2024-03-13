@@ -58,4 +58,13 @@
     .sectionSkills{
         width: 80%;
     }
+    .skill:hover{
+        width: 35%;
+        box-shadow: none;
+        -o-transition: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        transition: none;
+    }
 }
