@@ -28,7 +28,8 @@
 .ownInfo{
     display: flex;
     flex-direction: column;
-    width: 70%;    
+    text-align: justify;
+    width: 80%;    
 }
 
 .containerRow{

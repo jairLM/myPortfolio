@@ -14,8 +14,8 @@ function Main() {
                     <h1>Hola, Soy Jair!</h1>
                     <h2>Desarrollador Java Full Stack</h2>
                     <p>Ingeniero Mecánico, egresado y titulado del Instituto Politécnico Nacional. Amplio 
-                        interés en la rama de la tecnología. Apasionado por el desarrollo de web, así como 
-                        por la realización de pruebas y resolución de problemas.</p>
+                        interés en la rama de la tecnología. Apasionado por el desarrollo backend, así como 
+                        por el desarrollo web, la realización de pruebas y resolución de problemas.</p>
                     <ul className='containerIcons'>
                         <li className='elementIcon'>
                             <a href="https://www.linkedin.com/in/luis-jair-lopez-murillo-44b3341b9/" target="_blanck">
