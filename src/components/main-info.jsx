@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/main.css'
+import downloadCv from '../scripts/downloadCv';
 
 function Main() {
   return (
@@ -26,8 +27,8 @@ function Main() {
                                 <i className="bi bi-github iconMain"></i>
                             </a>
                         </li>
-                        <button className='btnDl'>
-                            <a  href="#" download={"resume.pdf"} className='aBtn' target='_blank'>Descargar CV</a>
+                        <button className='btnDl' onClick={downloadCv} >
+                            Descargar CV
                         </button>
                     </ul>
                     <section className='codewarsImg'>
